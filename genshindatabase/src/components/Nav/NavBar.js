@@ -9,12 +9,12 @@ const NavBar = () => {
 
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Genshin Database</Navbar.Brand>
+        <Navbar.Brand href="/">Genshin Database</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                <Nav.Link href="#Tier">Tier List</Nav.Link>
-                <Nav.Link href="#Characters">Characters</Nav.Link>
+                <Nav.Link href="/Tier">Tier List</Nav.Link>
+                <Nav.Link href="/Characters">Characters</Nav.Link>
                 <NavDropdown title="Region" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Template1</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Template2</NavDropdown.Item>
@@ -27,11 +27,10 @@ const NavBar = () => {
                 <Nav.Link href="#deets">More deets</Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                     Dank memes
-</Nav.Link>
+                </Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
-
     )
 }
 
