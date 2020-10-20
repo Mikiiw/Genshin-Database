@@ -1,42 +1,66 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 
+
 const DataTable = () => {
 
     return (
-        <Table striped bordered hover>
+        <Table striped bordered hover variant="dark">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Image</th>
-                    <th>Role</th>
                     <th>Tier</th>
+                    <th>Pyro</th>
+                    <th>Hydro</th>
+                    <th>Anemo</th>
+                    <th>Electro</th>
+                    <th>Dendro</th>
+                    <th>Cryo</th>
+                    <th>Geo</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Fire Man</td>
+                    <td>5*</td>
                     <td>
-                        <img src="https://www.gensh.in/fileadmin/Database/Characters/Diluc/Character_Diluc_XL.png" alt="Diluc" width="150" height="100" />
+                        <img src="img/201848-diluc-64x64-1.png" alt="Diluc"/>
                     </td>
-                    <td>SSS+</td>
-                    <td>Main DPS</td>
+                    <td>
+                        <img src="img/201855-mona-64x64-1.png" alt="Mona"/>
+                    </td>
+                    <td>
+                        <div>                        
+                            <img src="img/201849-venti-64x64-1.png" alt="Venti"/>
+                            <img src="img/201854-jean-64x64-1.png" alt="Jean"/>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="img/201852-keqing-64x64-1.png" alt="Keqing"/>
+                    </td>
+                    <td/>
+                    <td>
+                        <img src="img/201851-qiqi-64x64-1.png" alt="Qiqi"/>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Knight Maid</td>
+                    <td>4*</td>
                     <td>
-                        <img src="https://www.gensh.in/fileadmin/Database/Characters/Noelle/Character_Noelle_XL.png" alt="Barbara" width="150" height="100" />
+                        <img src="/img/201856-xiangling-64x64-1.png" alt="Xiangling"/>
                     </td>
-                    <td>SS</td>
-                    <td>Tank</td>
-                </tr>
-                <tr>
-                    <td>MC</td>
                     <td>
-                        <img src="https://www.gensh.in/fileadmin/Database/Characters/Traveller/Character_Aether_XL.png" alt="Traveller" width="150" height="100" />
+
                     </td>
-                    <td>S</td>
-                    <td>Omnipotent</td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <img src="img/201850-fischl-64x64-1.png" alt="Fischl"/>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <img src="img/201858-chongyun-64x64-1.png" atl="Chongyun"/>
+                    </td>
                 </tr>
             </tbody>
         </Table>

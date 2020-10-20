@@ -17,6 +17,7 @@ const App = () => {
                 <HomePage />
             </Route>
             <Route path="/Tier">
+                <br/>
                 <DataTable />
             </Route>
             <Route path="/Characters">
