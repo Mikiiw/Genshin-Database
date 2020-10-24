@@ -11,7 +11,7 @@ import HomePage from './components/HomePage/Home.js';
 const App = () => {
 
     return (
-        <div style={{ backgroundColor: 'black' }}>
+        <div style={{ backgroundColor: 'grey' }}>
             <NavBar />
             <Route path="/">
                 <HomePage />
