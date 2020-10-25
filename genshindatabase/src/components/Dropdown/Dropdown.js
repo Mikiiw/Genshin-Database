@@ -1,8 +1,8 @@
 import React from 'react';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-
-const database = {};
+import Ascension from './Ascension.js';
+import Lore from './Lore.js';
 
 
 const Dropdown = (props) => {
@@ -16,15 +16,14 @@ const Dropdown = (props) => {
     return (
         <div>
 
-            <Tabs defaultActiveKey="home" id="uncontrolled-tab-example">
-                <Tab eventKey="home" title="Home">
-                {props.input}
-                </Tab>
-                <Tab eventKey="profile" title="Profile">
-                    Will's AR40 Build for {props.input}
-                </Tab>
+            <Tabs defaultActiveKey="lore" id="uncontrolled-tab-example">
                 <Tab eventKey="lore" title="Lore" >
-                    {props.input} LORE POGGERS
+                    <Lore character={props.input} />
+                </Tab>
+                <Tab eventKey="ascension" title="Ascension" >
+                    <Ascension character={props.input} />
+                </Tab>
+                <Tab eventKey="build" title="Build" >
                 </Tab>
             </Tabs>
 
