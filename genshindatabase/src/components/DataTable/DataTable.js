@@ -41,6 +41,7 @@ const DataTable = () => {
                         </td>
                         <td>
                             <div>
+                            <img src="img/Character_Xiao_Thumb.png" alt="Xiao" className={tableIcon} onClick={clickEvent}/>
                                 <img src="img/201849-venti-64x64-1.png" alt="Venti" className={tableIcon} onClick={clickEvent}/>
                                 <img src="img/201854-jean-64x64-1.png" alt="Jean" className={tableIcon} onClick={clickEvent}/>
                             </div>

@@ -7,13 +7,17 @@ const loreList = {
     },
     "Keqing": {
         "Lore": "The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot. She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else."
+    },
+    "Xiao": {
+        "Lore": "Big boy."
     }
     
 }
 
 const pictureList = {
     "Venti": "img/Genshin-Impact_2019_11-22-19_Top.jpg",
-    "Keqing": "img/keqing-genshin-wiki-guide.png"
+    "Keqing": "img/keqing-genshin-wiki-guide.png",
+    "Xiao": "img/Character_Xiao_Portrait.png"
 }
 
 const previewList = {
@@ -29,6 +33,7 @@ const previewList = {
     "Kaeya": "https://www.youtube.com/watch?v=M2blSYJ6hrE&ab_channel=GenshinImpact",
     "Amber": "https://www.youtube.com/watch?v=KZSM0jEZ43I&ab_channel=GenshinImpact",
     "Chongyun": "https://www.youtube.com/watch?v=rpSX9EKwJtk&ab_channel=Enviosity",
+    "Xiao": "https://www.youtube.com/watch?v=sjozpa9DsZU&ab_channel=GenshinImpact",
 }
 
 const Lore = (props) => {
